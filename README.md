@@ -1,11 +1,16 @@
 This package contains the packages for Foo Control Panel.
 
-REQUIRED: Debian i386/amd64 7 wheezy, local website download.foonet.org/0.9.8/
+    !-END-OF-LIFE-!!-END-OF-LIFE-!!-END-OF-LIFE-!
 
-TESTED: YES
+CONTROL PANEL: FTP, MAIL, WEB.
+INCLUDE: vsftpd, nginx, apache, fail2ban, spamassasin, dovecot, exim, php, roundcube, spamblocks...
+TESTED ON / REQUIRED: Debian i386/amd64 7 wheezy.
 
-U CAN USE THIS AT YOUR OWN RISK.
+You need to make local domain: "download.foonet.org" with folder "/0.9.8/".
+And remember: U CAN USE THIS AT YOUR OWN RISK !
 
-If you see any bug please send all infos at foonet AT hotmail DOT com ..
+Contact me: foonet AT hotmail DOT com
 
-See, ya!
+    !-END-OF-LIFE-!!-END-OF-LIFE-!!-END-OF-LIFE-!
+
+Thank you!
