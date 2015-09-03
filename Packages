@@ -1,0 +1,146 @@
+Package: foo
+Source: foo
+Version: 0.9.8-12
+Architecture: amd64
+Maintainer: Ene Alin Gabriel <a@foonet.org>
+Depends: bash, awk, sed
+Filename: ./foo_0.9.8-12_amd64.deb
+Size: 514264
+MD5sum: 78ff70468ed403404810cd5c3682b077
+SHA1: 9d8d1b53e42a2dac183664d70a7af6ce8b4f240a
+SHA256: 2325821590c07b15d3b3534135cb047a27ff598717e6e0ee5d561f155237be21
+Section: admin
+Priority: optional
+Homepage: http://foonet.org
+Description: Foo is an open source hosting control panel. Foo has a clean and focused interface without the clutter. Foo has the latest of very innovative technologies.
+
+Package: foo-nginx
+Source: foo-nginx
+Version: 0.9.7-3
+Architecture: amd64
+Maintainer: Ene Alin Gabriel <a@foonet.org>
+Depends: foo
+Filename: ./foo-nginx_0.9.7-3_amd64.deb
+Size: 6983308
+MD5sum: 2a581da775d9eb72490d30ef27aef405
+SHA1: f7ad8efdc466bcd81173af5b79779c296e632fdf
+SHA256: 6fb70ea45814fe403bd03d79e992fe8c290185c22c590d102e2326fce4d4578b
+Section: admin
+Priority: optional
+Homepage: http://foonet.org
+Description: Foo (nginx) is an open source hosting control panel. Foo has a clean and focused interface without the clutter. Foo has the latest of very innovative technologies.
+
+Package: foo-php
+Source: foo-php
+Version: 0.9.7-3
+Architecture: amd64
+Maintainer: Ene Alin Gabriel <a@foonet.org>
+Depends: foo
+Filename: ./foo-php_0.9.7-3_amd64.deb
+Size: 34263542
+MD5sum: 009e7829f7b42173c55d20f95278eb97
+SHA1: 9a45cdc00bc5fb0b8e738470843b004bd0f74da3
+SHA256: 17c16cf4ff63f83affdf9e03e61a78dce75067955ae13a09253a6d69733b0fba
+Section: admin
+Priority: optional
+Homepage: http://foonet.org
+Description: Foo (php-fpm) is an open source hosting control panel. Foo has a clean and focused interface without the clutter. Foo has the latest of very innovative technologies.
+
+Package: vsftpd
+Version: 3.0.2-3
+Architecture: amd64
+Maintainer: Ene Alin Gabriel <a@foonet.org>
+Installed-Size: 378
+Depends: debconf (>= 0.5) | debconf-2.0, libc6 (>= 2.7), libcap2 (>= 2.10), libpam0g (>= 0.99.7.1), libssl1.0.0 (>= 1.0.0), libwrap0 (>= 7.6-4~), adduser, libpam-modules, netbase
+Recommends: logrotate
+Conflicts: ftp-server
+Replaces: ftp-server
+Provides: ftp-server
+Filename: ./vsftpd_3.0.2-3_amd64.deb
+Size: 167694
+MD5sum: 32bbfeabea1ef12f96563e0b75e05cd3
+SHA1: 1775cff5a1aa499a0fa3562fb852d148ee94fd10
+SHA256: 319121dfaec354440d9fae5e8b991ebf4d7242c51b3244a5f3d6709f9acc4a7a
+Section: net
+Priority: extra
+Homepage: http://foonet.org
+Description: lightweight, efficient FTP server written for security
+ This package provides the "Very Secure FTP Daemon", written from
+ the ground up with security in mind.
+ .
+ It supports both anonymous and non-anonymous FTP access, PAM authentication,
+ bandwidth limiting, and the Linux sendfile() facility.
+
+Package: foo
+Source: foo
+Version: 0.9.8-12
+Architecture: i386
+Maintainer: Ene Alin Gabriel <a@foonet.org>
+Depends: bash, awk, sed
+Filename: ./foo_0.9.8-12_i386.deb
+Size: 511252
+MD5sum: 327a4ede7a918b37a9b85f6836bc701d
+SHA1: ecc482baccf6c17f2c2000d20347923dbf0de189
+SHA256: 91f3d371540bdcb38c649301f30e955655007e3c1fc037cbefcfbb287a79603e
+Section: admin
+Priority: optional
+Homepage: http://foonet.org
+Description: Foo is an open source hosting control panel. Foo has a clean and focused interface without the clutter. Foo has the latest of very innovative technologies.
+
+Package: foo-nginx
+Source: foo-nginx
+Version: 0.9.7-3
+Architecture: i386
+Maintainer: Ene Alin Gabriel <a@foonet.org>
+Depends: foo
+Filename: ./foo-nginx_0.9.7-3_i386.deb
+Size: 6854542
+MD5sum: 14bba5fbc264fefc66491cd305d13e46
+SHA1: 179c337c22541e6cceecef38eede789c3f3f5d17
+SHA256: 690235a2c773410ed9c17c286f324b0421caee9f99ef112b03af6141a711286f
+Section: admin
+Priority: optional
+Homepage: http://foonet.org
+Description: Foo (nginx) is an open source hosting control panel. Foo has a clean and focused interface without the clutter. Foo has the latest of very innovative technologies.
+
+Package: foo-php
+Source: foo-php
+Version: 0.9.7-3
+Architecture: i386
+Maintainer: Ene Alin Gabriel <a@foonet.org>
+Depends: foo
+Filename: ./foo-php_0.9.7-3_i386.deb
+Size: 32850196
+MD5sum: fe8359979955c7fd5e5de5d8b6107595
+SHA1: 4876e19af5cfb268ac71ce9b3b3b61d176e91c23
+SHA256: d29d309cc72d42203dd8cee2f6a4f026c78ab87756bf2b888fff382199e7ac30
+Section: admin
+Priority: optional
+Homepage: http://foonet.org
+Description: Foo (php-fpm) is an open source hosting control panel. Foo has a clean and focused interface without the clutter. Foo has the latest of very innovative technologies.
+
+Package: vsftpd
+Version: 3.0.2-3
+Architecture: i386
+Maintainer: Ene Alin Gabriel <a@foonet.org>
+Installed-Size: 378
+Depends: debconf (>= 0.5) | debconf-2.0, libc6 (>= 2.7), libcap2 (>= 2.10), libpam0g (>= 0.99.7.1), libssl1.0.0 (>= 1.0.0), libwrap0 (>= 7.6-4~), adduser, libpam-modules, netbase
+Recommends: logrotate
+Conflicts: ftp-server
+Replaces: ftp-server
+Provides: ftp-server
+Filename: ./vsftpd_3.0.2-3_i386.deb
+Size: 167694
+MD5sum: 397ad010bf8aa5a9b14944eaf5485a48
+SHA1: 1735f7a176863511e62f672d0490b4f16da1940a
+SHA256: 54ccec0d37693880c7f15ec1ddd95d159e885ebd36de276b6c19e6b1b4124880
+Section: net
+Priority: extra
+Homepage: http://foonet.org
+Description: lightweight, efficient FTP server written for security
+ This package provides the "Very Secure FTP Daemon", written from
+ the ground up with security in mind.
+ .
+ It supports both anonymous and non-anonymous FTP access, PAM authentication,
+ bandwidth limiting, and the Linux sendfile() facility.
+
