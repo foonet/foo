@@ -6,6 +6,6 @@ TESTED: YES
 
 U CAN USE THIS AT YOUR OWN RISK.
 
-If you see any bug please send all infos at foonet[@]hotmail.com ..
+If you see any bug please send all infos at foonet AT hotmail DOT com ..
 
 See, ya!
