@@ -1,6 +1,6 @@
 This package contains the packages for Foo Control Panel.
 
-REQUIRED: Debian i386 7 wheezy, local website download.foonet.org/0.9.8/
+REQUIRED: Debian i386/amd64 7 wheezy, local website download.foonet.org/0.9.8/
 
 TESTED: YES
 
